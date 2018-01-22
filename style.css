@@ -4,22 +4,40 @@
 }
 
 body {
-  /* background-image: url(./images/background.jpg); 
+  background-image: url(./images/background.jpg); 
   background-repeat: no-repeat;
   box-sizing: border-box;
-  background-size: cover; */
+  background-size: cover; 
   Z-index: 1;
   height: 1080px;
-  background-color: rgb(200,200,200);
+  width: 100%;
+  background-color: rgba(33,33,33,0);
 }
 
 .header {
-  background-color: rgba(200,200,200,0);
+  background-color: rgba(230,230,230,0.5);
   position: fixed;
   width: 100%;
   z-index: 10;
+  color: rgb(30,30,30);
   border-bottom: 2px solid rgba(200,200,200,0.5);
   border-top: 1px solid rgba(200,200,200,0.5);
+}
+
+.button {
+  display: block;
+  position: relative;
+  font-family: 'Arimo', sans-serif;
+  font-size: 150%;
+  color: rgb(0,0,0);
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px ridge black;
+  top: 300px;
+  padding: 20px;
+  background-color: rgba(230,230,230,0.5);
 }
 
 li {
@@ -37,11 +55,15 @@ p.quote {
   position: relative;
   font-family: 'Special Elite', cursive;
   font-size: 130%;
-  width: 50%;
-  height: 0;
+  color: rgb(0,0,0);
+  width: 700px;
+  height: 275px;
   text-align: center;
   margin: 0 auto;
+  border: 0px ridge black;
   top: 200px;
+  padding: 4px;
+  background-color: rgba(230,230,230,0);
 }
 
 h1 {
@@ -51,14 +73,14 @@ h1 {
   Z-index: 6;
   margin-top: 500px;
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 img {
   display: block;
   height: 240;
-  width: 180;
-  margin: 0px auto;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
   top: 1080px;
 }
